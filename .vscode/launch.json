@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Windows configs (only difference from linux/mac is "type" and "program")
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "preLaunchTask": "Build Game",
+            "name": "Run Game (Windows)",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/main.exe",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+    ]
+}
